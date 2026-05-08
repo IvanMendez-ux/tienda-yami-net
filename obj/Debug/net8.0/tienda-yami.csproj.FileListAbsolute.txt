@@ -120,3 +120,10 @@
 /Users/fabiomendez/tienda-yami/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/fabiomendez/tienda-yami/obj/Debug/net8.0/tienda-yami.csproj.AssemblyReference.cache
 /Users/fabiomendez/tienda-yami/obj/Debug/net8.0/tienda-yami.csproj.CopyComplete
+/Users/fabiomendez/tienda-yami/bin/Debug/net8.0/publish/web.config
+/Users/fabiomendez/tienda-yami/bin/Debug/net8.0/web.config
+/Users/fabiomendez/tienda-yami/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/fabiomendez/tienda-yami/bin/Debug/net8.0/publish/appsettings.json
+/Users/fabiomendez/tienda-yami/bin/Debug/net8.0/publish/tienda-yami.deps.json
+/Users/fabiomendez/tienda-yami/bin/Debug/net8.0/publish/tienda-yami.runtimeconfig.json
+/Users/fabiomendez/tienda-yami/obj/Debug/net8.0/tienda-yami.sourcelink.json

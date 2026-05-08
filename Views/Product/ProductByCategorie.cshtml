@@ -1,0 +1,36 @@
+@model IEnumerable<tienda_yami.Models.ProductosHome.Productos>
+@{
+    ViewData["Title"] = "Tienda Yami";  
+}
+<script src="~/js/home.js" asp-append-version="true"></script>
+@section Styles {
+    <style>
+        nav.navbar {
+            background: white !important;
+        }
+
+        nav.navbar .navbar-brand,
+        nav.navbar .nav-link {
+            color: #111 !important;
+        }
+    </style>
+}
+<div class="container-fluid">
+    <div class="col-12">
+        <div class="featured-products">
+            <div class="products-grid">
+                @foreach (var producto in Model)
+                {
+                    <div class="card-product" onclick="productById(@producto.Id)">
+                        <img src="@producto.Url" />
+                        <div class="card-product-info">
+                            <span class="product-name">@producto.Producto</span>
+                            <span class="product-category">@producto.Categoria</span>
+                            <span class="product-price">&#8370; @producto.Precio</span>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

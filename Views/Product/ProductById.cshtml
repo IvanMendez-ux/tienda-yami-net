@@ -1,0 +1,57 @@
+@model tienda_yami.Models.ProductosHome.ProductosDetail
+@{
+    ViewData["Title"] = @Model.Producto;
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/product.css" asp-append-version="true" />
+    <style>
+        nav.navbar {
+            background: white !important;
+        }
+
+        nav.navbar .navbar-brand,
+        nav.navbar .nav-link {
+            color: #111 !important;
+        }
+    </style>
+}
+<div class="container-fluid" id="card-container">
+    <div class="container product-page">
+        <div class="row align-items-start">
+            <!-- Imagen -->
+            <div class="col-lg-6 col-md-6 product-image-wrapper">
+                <img src="@Model.Url" class="product-image" />
+            </div>
+
+            <!-- Info -->
+            <div class="col-lg-6 col-md-6 product-info">
+                <!-- Breadcrumb -->
+                <nav class="breadcrumb-nav">
+                    <a href="/">Inicio</a> /
+                    <a href="#">@Model.Categoria</a> /
+                    <span>@Model.Producto</span>
+                </nav>
+
+                <span class="product-category-badge">@Model.Categoria</span>
+                <h1 class="product-title">@Model.Producto</h1>
+
+                <!-- Precio -->
+                <div class="product-pricing">
+                    <span class="price-current">&#8370; @Model.Precio</span>
+                </div>
+
+                <p class="product-description">@Model.Descripcion</p>
+
+                <!-- Cantidad + Botón -->
+                <div class="product-actions">
+                    <input type="number" class="quantity-input" value="1" min="1" max="@Model.Cantidad" />
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+
+                <div class="product-meta">
+                    <span>Categoría: <strong>@Model.Categoria</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

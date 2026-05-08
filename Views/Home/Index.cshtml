@@ -1,0 +1,55 @@
+﻿@model IEnumerable<tienda_yami.Models.ProductosHome.Productos>
+@{
+    ViewData["Title"] = "Tienda Yami";  
+    ViewData["Logo"] = "logo-transparent.png";
+}
+<script>
+    const urlProductById = '@Url.Action("ProductById", "Product")';
+    const urlProductByCategorie = '@Url.Action("ProductByCategorie", "Product")';
+</script>
+
+<div class="container-fluid">
+    <div class="col-12">
+        <div class="image-background-container">
+        </div>
+        <div class="cards-categories" onclick="productByCategorie(2)">
+            <div class="women-categorie">
+                <img src="~/img/women.jpg" />
+                <span class="card-text">Mujeres</span>
+                <button></button>
+            </div>
+            <div class="man-categorie" onclick="productByCategorie(1)">
+                <img src="~/img/man.jpg" />
+                <span class="card-text">Hombres</span>
+            </div>
+            <div class="footwear-categorie" onclick="productByCategorie(3)">
+                <img src="~/img/footwear.jpg" />
+                <span class="card-text">Calzados</span>
+            </div>
+            <div class="accesories-categorie" onclick="productByCategorie(4)">
+                <img src="~/img/accesories.jpg" />
+                <span class="card-text">Accesorios Femeninos</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="featured-products">
+            <span class="featured-title">Nuevos Productos</span>
+            <div class="divider"></div>
+            <div class="products-grid">
+                @foreach (var producto in Model)
+                {
+                    <div class="card-product" onclick="productById(@producto.Id)">
+                        <img src="@producto.Url" />
+                        <div class="card-product-info">
+                            <span class="product-name">@producto.Producto</span>
+                            <span class="product-category">@producto.Categoria</span>
+                            <span class="product-price">&#8370; @producto.Precio</span>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/home.js" asp-append-version="true"></script>

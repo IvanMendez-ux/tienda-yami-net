@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tienda-yami")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4384fc32eb7c37eced29962ce3070b58fe26bad5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46fbad4bafd89e2e3a0b4f866581af4c9d0ebcca")]
 [assembly: System.Reflection.AssemblyProductAttribute("tienda-yami")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tienda-yami")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O/CH7XvPFBsiawATcyaPSAkxy3unZ26v0x78j6z/XtYEky2HiKngyTcgvRum37d3uU2cMHgNxvdOLGVi8fR9jg==",
+  "dgSpecHash": "Q7EoYF4DNQJtZP/tSU7LIP2GDQ36BouRM2y+zRjGNtV5HCNa8sw62yqmBDnmGLnQ7LNXBSIlrzECIhgc8m6bxg==",
   "success": true,
   "projectFilePath": "/Users/fabiomendez/tienda-yami/tienda-yami.csproj",
   "expectedPackageFiles": [
@@ -14,9 +14,9 @@
     "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore/8.0.11/microsoft.entityframeworkcore.8.0.11.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.11/microsoft.entityframeworkcore.abstractions.8.0.11.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.11/microsoft.entityframeworkcore.analyzers.8.0.11.nupkg.sha512",
-    "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore.design/8.0.0/microsoft.entityframeworkcore.design.8.0.0.nupkg.sha512",
+    "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore.design/8.0.11/microsoft.entityframeworkcore.design.8.0.11.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.11/microsoft.entityframeworkcore.relational.8.0.11.nupkg.sha512",
-    "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore.tools/10.0.7/microsoft.entityframeworkcore.tools.10.0.7.nupkg.sha512",
+    "/Users/fabiomendez/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.11/microsoft.entityframeworkcore.tools.8.0.11.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
@@ -25,7 +25,7 @@
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.configuration.json/9.0.0/microsoft.extensions.configuration.json.9.0.0.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "/Users/fabiomendez/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "/Users/fabiomendez/.nuget/packages/microsoft.extensions.dependencymodel/8.0.2/microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.0/microsoft.extensions.fileproviders.abstractions.9.0.0.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.fileproviders.physical/9.0.0/microsoft.extensions.fileproviders.physical.9.0.0.nupkg.sha512",
     "/Users/fabiomendez/.nuget/packages/microsoft.extensions.filesystemglobbing/9.0.0/microsoft.extensions.filesystemglobbing.9.0.0.nupkg.sha512",
